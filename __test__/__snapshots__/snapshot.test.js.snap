@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`It's snapshot time Always fails the snapshot 1`] = `
+Object {
+  "createAt": 2021-07-23T02:01:14.872Z,
+  "id": 15,
+}
+`;
+
+exports[`It's snapshot time Exception for some values 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "Rick Sanchez",
+}
+`;
+
 exports[`It's snapshot time Snapshot 1`] = `
 Object {
   "gender": "Male",
